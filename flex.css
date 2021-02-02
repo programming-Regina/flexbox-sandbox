@@ -1,5 +1,4 @@
-body {
-    background-color: rgb(242, 238, 238);
+body {   
     margin: 0;
     font-family: sans-serif;
     min-height: 100vh;
@@ -44,6 +43,11 @@ nav {
     padding: 1em;
 }
 
+.tiny {
+    font-weight: bold;
+    font-size: x-small;
+}
+
 .flex-item {
     background-color: turquoise;
     padding: .5em;
@@ -79,10 +83,26 @@ nav {
 .col1,
 .col2,
 .flex-container,
-.flex-item {
+.flex-item,
+#container-attrs,
+#items-attrs {
     border-radius: 15px;
 }
-#play {margin-bottom: 0;}
+
+#container-attrs,
+#items-attrs {
+    border-color: gray;
+    border-width: 1px;
+    border-style: solid;
+    padding-left: .5em;
+    padding-right: .5em;
+    padding-bottom: .5em;
+    background-color: rgb(242, 238, 238);
+}
+#items-attrs {margin-top: .25em;}
+#play {
+    margin-bottom: 0;
+}
 
 #container-attrs {
     display: flex;
