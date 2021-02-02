@@ -3,3 +3,4 @@
 
 Flexbox playground.
 
+<b>Skills:<b> HTML / CSS / Vue.JS
