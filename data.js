@@ -1,7 +1,7 @@
 new Vue({
     el: '#app',
     data: {
-        display: ['flex', 'inline-flex'],
+        display: ['flex'],
         display_s: 'flex',
         flex_direction: ['row', 'row-reverse', 'column', 'column-reverse'],
         flex_direction_s: 'row',
